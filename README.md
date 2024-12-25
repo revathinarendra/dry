@@ -38,16 +38,32 @@ Setup Instructions:
 8. Fill up the environment variables: Generate your own Secret key using this tool https://djecrety.ir/, copy and paste the secret key in the SECRET_KEY field.
      Your configuration should look something like this:
 
-    SECRET_KEY=47d)n05#ei0rg4#)*@fuhc%$5+0n(t%jgxg$)!1pkegsi*l4c%
-    DEBUG=True
-    #if you are using supabase database setting 
-    SUPABASE_URL=
-    SUPABASE_ANON_KEY=
-    SUPBASE_DB_NAME= 
-    SUPBASE_DB_USER= 
-    SUPBASE_DB_PASSWORD= 
-    SUPBASE_DB_HOST= 
-    SUPBASE_DB_PORT =
+        - SECRET_KEY=47d)n05#ei0rg4#)*@fuhc%$5+0n(t%jgxg$)!1pkegsi*l4c%
+
+
+        - DEBUG=True
+
+
+        - #if you are using supabase database setting 
+
+
+        - SUPABASE_URL=
+
+        - SUPABASE_ANON_KEY=
+
+
+        - SUPBASE_DB_NAME= 
+
+        - SUPBASE_DB_USER=
+
+
+        - SUPBASE_DB_PASSWORD= 
+
+
+        - SUPBASE_DB_HOST=  
+
+
+        - SUPBASE_DB_PORT =
 
 
 9. .Create database tables
